@@ -23,4 +23,4 @@ Just run `bbox.py` or `ccpd2yolotxt.py`. Don't forget to replace the default CCP
   > 0 中心点（归一化宽） 中心点（归一化长） 框宽度（归一化） 框长度（归一化）
 
 ### Issue:
-* It is not easy for opencv to draw Chinese characters on a picture. You could replace Chinese characters with pinyin if needed.
+* It is not easy for opencv to draw Chinese characters on a picture. You could replace Chinese characters with pinyin if needed. PR is welcomed.
