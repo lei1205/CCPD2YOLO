@@ -10,11 +10,16 @@ To download CCPD dataset...
 ```bash
 pip install opencv-python
 ```
+Just run `bbox.py` or `ccpd2yolotxt.py`. Don't forget to replace the default CCPD directory with yours.
 
-### Format
+
+
+### Format:
 * **CCPD filename format:**
   > 面积比-斜度-左上右下坐标-四个角坐标（右下角开始顺时针）-车牌-亮度-模糊度
 
 * **YOLO txt format:**
   > 0 中心点（归一化宽） 中心点（归一化长） 框宽度（归一化） 框长度（归一化）
 
+### Issue:
+* It is not easy for opencv to draw Chinese characters on a picture. You could replace Chinese characters with pinyin if needed.
